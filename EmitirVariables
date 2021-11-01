@@ -1,0 +1,21 @@
+package com.company;
+
+public class EmitirVariables {
+
+    public static void main(String[] args) {
+        //Defino variables
+        String nombre = "Marselo";
+        int edad = 27;
+        long diasVividos = 27 * 365 + 198;
+        double peso = 80.5;
+        boolean gafas = false;
+
+        System.out.println(nombre);
+        System.out.println(edad);
+        System.out.println(diasVividos);
+        System.out.println(peso);
+        System.out.println(gafas);
+
+
+    }
+}
